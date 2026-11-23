@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sigpac-espana": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-sigpac-espana@latest"
+      ],
+      "env": {}
+    }
+  }
+}

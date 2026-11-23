@@ -1,0 +1,47 @@
+{
+  "name": "mcp-sigpac-espana",
+  "version": "1.0.0",
+  "mcpName": "io.github.refcatastral/mcp-sigpac-espana",
+  "description": "Servidor MCP (Model Context Protocol) oficial de RefCatastral.es para consultar parcelas agrícolas, recintos, usos SIGPAC (olivar, viñedo, regadío, pastos), pendientes medias y ayudas PAC en España.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mcp-sigpac-espana": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "sigpac",
+    "agricultura",
+    "fega",
+    "mapa",
+    "catastro",
+    "fincas-rusticas",
+    "olivar",
+    "vinedo",
+    "regadio",
+    "refcatastral",
+    "gis",
+    "pac"
+  ],
+  "author": "RefCatastral.es <info@refcatastral.es> (https://refcatastral.es)",
+  "license": "MIT",
+  "homepage": "https://refcatastral.es",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/refcatastral/mcp-sigpac-espana.git"
+  },
+  "bugs": {
+    "url": "https://github.com/refcatastral/mcp-sigpac-espana/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

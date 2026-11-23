@@ -1,0 +1,32 @@
+{
+  "name": "mcp-sigpac-espana",
+  "version": "1.0.0",
+  "description": "Servidor MCP oficial de RefCatastral.es para consultar parcelas agrícolas, recintos, usos SIGPAC (olivar, viñedo, regadío, pastos), pendientes y PAC en España.",
+  "author": {
+    "name": "RefCatastral.es",
+    "url": "https://refcatastral.es"
+  },
+  "homepage": "https://refcatastral.es",
+  "repository": "https://github.com/refcatastral/mcp-sigpac-espana",
+  "license": "MIT",
+  "skills": [
+    "skills/sigpac-espana"
+  ],
+  "mcpServers": ".mcp.json",
+  "interface": {
+    "displayName": "SIGPAC España",
+    "shortDescription": "Parcelas agrícolas y rústicas",
+    "longDescription": "Plugin oficial de RefCatastral.es para consultar datos agronómicos de parcelas, recintos, usos del suelo (olivar, viñedo, cereal), pendientes medias y ayudas de la PAC del SIGPAC (FEGA/MAPA).",
+    "developerName": "RefCatastral.es",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Interactive"
+    ],
+    "websiteURL": "https://refcatastral.es",
+    "privacyPolicyURL": "https://refcatastral.es/aviso-legal/",
+    "termsOfServiceURL": "https://refcatastral.es/aviso-legal/",
+    "brandColor": "#15803d",
+    "logo": "logo.png"
+  }
+}
