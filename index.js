@@ -156,7 +156,7 @@ async function getParcelaRecintos(provincia, municipio, poligono, parcela, agreg
     total_recintos: recintos.length,
     recintos: recintos,
     visor_oficial_sigpac: `https://sigpac.mapa.gob.es/fega/visor/?p=${pr}&m=${mu}&ag=${ag}&z=${zo}&po=${po}&pa=${pa}`,
-    enlace_refcatastral: `https://refcatastral.es/referencia/${rcRústica14}`,
+    enlace_refcatastral: "https://refcatastral.es/visor-sigpac/",
     fuente: "SIGPAC · Fondo Español de Garantía Agraria (FEGA) / MAPA",
   };
 }
@@ -422,7 +422,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
                   parcela: parsed.parcela,
                   sector_agregado: parsed.sector,
                   enlace_visor_sigpac: `https://sigpac.mapa.gob.es/fega/visor/?p=${parsed.provincia}&m=${parsed.municipio}&po=${parsed.poligono}&pa=${parsed.parcela}`,
-                  enlace_refcatastral: `https://refcatastral.es/referencia/${rc14}`,
+                  enlace_refcatastral: "https://refcatastral.es/visor-sigpac/",
                 },
                 null,
                 2
