@@ -66,5 +66,5 @@ This skill relies on the tools exposed by the [`mcp-sigpac-espana`](https://gith
 
 ## 🌐 Official Links and Source Attribution
 When presenting findings to the user, always provide the direct link to view the property on:
-* **RefCatastral:** `https://refcatastral.es/referencia/{REFERENCIA_CATASTRAL}`
+* **Visor SIGPAC RefCatastral:** `https://refcatastral.es/visor-sigpac/`
 * **Visor Oficial SIGPAC (FEGA):** `https://sigpac.mapa.gob.es/fega/visor/`
